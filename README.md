@@ -58,4 +58,26 @@ https://www.oreilly.com/ideas/clustering-geolocated-data-using-spark-and-dbscan
 https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf
 
 
+Gaussian Mixture Model
 
+
+K-Means algorithm’s inner-loop iterates over two steps:
+
+Assign each observation 
+Xi to the closest cluster centroid 
+μk Update each centroid to the mean of the points assigned to it.
+So, for K-Means, every data point is assigned to any of the one clusters, this is known as Hard Clustering or Hard cluster assignment.
+
+Hard Clustering: In hard clustering, the data points are assigned to any one cluster completely. That means for hard clustering there is no consideration of uncertainty in the assignment of a data points. 
+
+The limitations with hard clustering are that we tend to clusters even those data points in one of the clusters, even if the data point doesn't follow the clustering trend completely. Forex, If we want to cluster the set of customers into two groups say "High-Value Customers" and "Low-Value Customers", we will end up clustering the average value customers to any one of the clusters.
+
+So to overcome this issue, we have a concept of Soft Clustering.
+
+Soft Clustering: In soft clustering, the assignment of the data point to a cluster is based on the probability or likelihood of that data point to existing in that cluster. If we take the above example of clustering the customers into two clusters, we will be able to identify those customers who didn't fall in any one.
+
+For soft clustering, we have an algorithm called GMMs or Gaussian Mixture Models. GMM has two advantages over K-Means: 
+
+GMM is a lot more flexible regarding cluster covariance.
+GMM model accommodates mixed membership.
+We strongly suggest you go through the algorithm as GMMs can be applied to applications like "Speech Recognition", "Image Clustering", "Financial Applications". 
