@@ -19,3 +19,9 @@ http://www.saedsayad.com/clustering_hierarchical.htm
 https://stats.stackexchange.com/questions/195446/choosing-the-right-linkage-method-for-hierarchical-clustering
 
 http://www.stat.cmu.edu/~ryantibs/datamining/lectures/05-clus2.pdf
+
+K-Mode CLutering:
+
+Dataset: https://ml-course3-upgrad.s3.amazonaws.com/Unsupervised+Learning_+Clustering/Other+Forms+of+Clustering/bankmarketing.csv
+
+
